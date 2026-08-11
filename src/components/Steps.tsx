@@ -53,10 +53,10 @@ export default function Steps() {
   }, [])
 
   return (
-    <section id="steps" className="relative py-16 md:py-24 lg:py-32 overflow-hidden bg-gradient-to-b from-[#F8FAFC] via-white to-[#EFF6FF] reveal">
+    <section id="steps" className="relative py-16 md:py-24 lg:py-32 overflow-hidden bg-gradient-to-b from-[#FAF6EF] via-white to-[#FFF4E2] reveal">
       <div className="absolute inset-0 grid-bg opacity-40 pointer-events-none" />
-      <div className="absolute top-20 left-10 w-72 h-72 rounded-full bg-[#3B82F6] opacity-10 blur-[80px] pointer-events-none animate-blob" />
-      <div className="absolute bottom-20 right-10 w-80 h-80 rounded-full bg-[#0EA5E9] opacity-10 blur-[80px] pointer-events-none animate-blob-2" />
+      <div className="absolute top-20 left-10 w-72 h-72 rounded-full bg-[#D97706] opacity-10 blur-[80px] pointer-events-none animate-blob" />
+      <div className="absolute bottom-20 right-10 w-80 h-80 rounded-full bg-[#F59E0B] opacity-10 blur-[80px] pointer-events-none animate-blob-2" />
 
       <div className="container-x relative">
         <div className="text-center mb-14 md:mb-20">
@@ -95,7 +95,7 @@ export default function Steps() {
 
                   <circle cx="50" cy="50" r="48" fill={`url(#ringGlow${s.num})`} />
                   <circle cx="50" cy="50" r="42" fill="#FFFFFF" />
-                  <circle cx="50" cy="50" r="42" fill="none" stroke="#E2E8F0" strokeWidth="5" />
+                  <circle cx="50" cy="50" r="42" fill="none" stroke="#EAE2D4" strokeWidth="5" />
                   <circle
                     cx="50"
                     cy="50"
@@ -137,7 +137,7 @@ export default function Steps() {
               {i < steps.length - 1 && (
                 <div className="hidden md:block absolute top-1/2 -right-3 -translate-y-1/2 z-10">
                   <div
-                    className="w-9 h-9 rounded-full bg-white shadow-[0_6px_16px_rgba(30,58,138,0.2)] border border-[--border-strong] flex items-center justify-center transition-all duration-500"
+                    className="w-9 h-9 rounded-full bg-white shadow-[0_6px_16px_rgba(154,52,18,0.2)] border border-[--border-strong] flex items-center justify-center transition-all duration-500"
                     style={{
                       opacity: active ? 1 : 0.25,
                       transform: `scale(${active ? 1 : 0.7})`,
@@ -156,8 +156,8 @@ export default function Steps() {
 
         <div className="mt-14 md:mt-20 max-w-[820px] mx-auto">
           <div className="relative">
-            <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#0EA5E9] opacity-40 blur-lg pointer-events-none" />
-            <div className="relative bg-[#0A1628] rounded-full py-5 md:py-6 px-6 md:px-10 text-center border border-[#3B82F6]/30 overflow-hidden">
+            <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-[#B45309] via-[#EA580C] to-[#F59E0B] opacity-40 blur-lg pointer-events-none" />
+            <div className="relative bg-[#26190F] rounded-full py-5 md:py-6 px-6 md:px-10 text-center border border-[#3B82F6]/30 overflow-hidden">
               <div className="absolute inset-0 grid-bg-dark opacity-40 pointer-events-none" />
               <p className="relative text-[15px] md:text-[20px] font-black tracking-[-0.01em] break-keep text-white">
                 <span className="text-gold-gradient">&quot; </span>

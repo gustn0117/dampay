@@ -69,7 +69,7 @@ function useBenefits(): Benefit[] {
           <circle cx="60" cy="60" r="50" fill="url(#b2g)" />
           <circle cx="60" cy="60" r="50" fill="url(#b2shine)" />
           <circle cx="60" cy="60" r="38" fill="none" stroke="#fff" strokeOpacity="0.25" strokeWidth="2" strokeDasharray="3 3" className="animate-spin-slow" style={{ transformOrigin: '60px 60px' }} />
-          <circle cx="60" cy="60" r="30" fill="#0A1628" />
+          <circle cx="60" cy="60" r="30" fill="#26190F" />
           <g stroke="#60A5FA" strokeWidth="1.5" strokeLinecap="round">
             <line x1="60" y1="34" x2="60" y2="40" />
             <line x1="86" y1="60" x2="80" y2="60" />
@@ -144,7 +144,7 @@ function useBenefits(): Benefit[] {
         <svg viewBox="0 0 120 120" className="w-16 h-16 md:w-20 md:h-20">
           <defs>
             <linearGradient id="b5g" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0%" stopColor="#0F1E3D" />
+              <stop offset="0%" stopColor="#2E2115" />
               <stop offset="100%" stopColor="#1E3A8A" />
             </linearGradient>
             <linearGradient id="b5screen" x1="0" y1="0" x2="0" y2="1">
@@ -155,8 +155,8 @@ function useBenefits(): Benefit[] {
           <rect x="36" y="14" width="48" height="92" rx="10" fill="url(#b5g)" />
           <rect x="40" y="22" width="40" height="70" rx="4" fill="url(#b5screen)" />
           <rect x="40" y="22" width="40" height="70" rx="4" fill="#fff" fillOpacity="0.08" />
-          <circle cx="60" cy="100" r="3" fill="#94A3B8" />
-          <rect x="53" y="18" width="14" height="2" rx="1" fill="#0A1628" />
+          <circle cx="60" cy="100" r="3" fill="#A8A092" />
+          <rect x="53" y="18" width="14" height="2" rx="1" fill="#26190F" />
           <g>
             <rect x="46" y="32" width="28" height="14" rx="2" fill="#F59E0B" />
             <rect x="46" y="32" width="28" height="14" rx="2" fill="#fff" fillOpacity="0.25" />
@@ -177,7 +177,7 @@ function useBenefits(): Benefit[] {
           <defs>
             <linearGradient id="b6g1" x1="0" y1="0" x2="1" y2="1">
               <stop offset="0%" stopColor="#1E3A8A" />
-              <stop offset="100%" stopColor="#0A1628" />
+              <stop offset="100%" stopColor="#26190F" />
             </linearGradient>
             <linearGradient id="b6g2" x1="0" y1="0" x2="1" y2="1">
               <stop offset="0%" stopColor="#2563EB" />
@@ -220,10 +220,10 @@ export default function Stats() {
   const benefits = useBenefits()
 
   return (
-    <section id="benefits" className="relative py-16 md:py-24 lg:py-28 bg-[#F8FAFC] overflow-hidden reveal">
+    <section id="benefits" className="relative py-16 md:py-24 lg:py-28 bg-[#FAF6EF] overflow-hidden reveal">
       <div className="absolute inset-0 grid-bg opacity-60 pointer-events-none" />
-      <div className="absolute -top-20 right-0 w-96 h-96 rounded-full bg-[#2563EB] opacity-10 blur-[80px] pointer-events-none" />
-      <div className="absolute bottom-0 left-0 w-80 h-80 rounded-full bg-[#0EA5E9] opacity-10 blur-[80px] pointer-events-none" />
+      <div className="absolute -top-20 right-0 w-96 h-96 rounded-full bg-[#B45309] opacity-10 blur-[80px] pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-80 h-80 rounded-full bg-[#F59E0B] opacity-10 blur-[80px] pointer-events-none" />
 
       <div className="container-x relative">
         <div className="text-center mb-12 md:mb-16">

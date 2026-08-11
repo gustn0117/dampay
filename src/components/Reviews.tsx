@@ -57,8 +57,8 @@ function StarRow() {
 
 export default function Reviews() {
   return (
-    <section id="reviews" className="relative py-16 md:py-24 lg:py-28 overflow-hidden bg-gradient-to-b from-white to-[#F1F5F9] reveal">
-      <div className="absolute -top-20 right-1/4 w-96 h-96 rounded-full bg-[#3B82F6] opacity-10 blur-[80px] pointer-events-none" />
+    <section id="reviews" className="relative py-16 md:py-24 lg:py-28 overflow-hidden bg-gradient-to-b from-white to-[#F4EDE1] reveal">
+      <div className="absolute -top-20 right-1/4 w-96 h-96 rounded-full bg-[#D97706] opacity-10 blur-[80px] pointer-events-none" />
       <div className="absolute bottom-0 left-1/4 w-80 h-80 rounded-full bg-[#FCD34D] opacity-10 blur-[80px] pointer-events-none" />
 
       <div className="container-x relative">
@@ -84,7 +84,7 @@ export default function Reviews() {
             >
               <div className="absolute -top-10 -right-10 w-40 h-40 rounded-full bg-[#FCD34D] opacity-15 blur-2xl pointer-events-none" />
 
-              <svg width="30" height="24" viewBox="0 0 30 24" className="mb-4 text-[#CBD5E1]" fill="currentColor">
+              <svg width="30" height="24" viewBox="0 0 30 24" className="mb-4 text-[#D9CFC0]" fill="currentColor">
                 <path d="M0 24V12C0 5.4 4.4 0.6 10.8 0v4C6.6 4.8 4 7.6 4 12h6v12H0zm16 0V12c0-6.6 4.4-11.4 10.8-12v4c-4.2 0.8-6.8 3.6-6.8 8h6v12H16z"/>
               </svg>
 

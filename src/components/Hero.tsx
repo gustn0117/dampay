@@ -18,14 +18,14 @@ function PremiumCard3D({ tilt }: { tilt: { rx: number; ry: number } }) {
   return (
     <svg
       viewBox="0 0 320 200"
-      className="w-full max-w-[360px] md:max-w-[440px] mx-auto drop-shadow-[0_40px_60px_rgba(30,58,138,0.5)] transition-transform duration-300 ease-out"
+      className="w-full max-w-[360px] md:max-w-[440px] mx-auto drop-shadow-[0_40px_60px_rgba(154,52,18,0.5)] transition-transform duration-300 ease-out"
       style={{ transform: `perspective(1000px) rotateX(${tilt.rx}deg) rotateY(${tilt.ry}deg)` }}
     >
       <defs>
         <linearGradient id="cardBodyG" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0%" stopColor="#1E3A8A" />
           <stop offset="55%" stopColor="#2563EB" />
-          <stop offset="100%" stopColor="#0A1628" />
+          <stop offset="100%" stopColor="#26190F" />
         </linearGradient>
         <linearGradient id="cardShineG" x1="0" y1="0" x2="1" y2="0.6">
           <stop offset="0%" stopColor="#FFFFFF" stopOpacity="0.3" />
@@ -57,7 +57,7 @@ function PremiumCard3D({ tilt }: { tilt: { rx: number; ry: number } }) {
 
       {/* Back stack card */}
       <g transform="translate(34 28) rotate(-7 150 100)">
-        <rect x="0" y="0" width="280" height="170" rx="18" fill="#0A1628" opacity="0.5" />
+        <rect x="0" y="0" width="280" height="170" rx="18" fill="#26190F" opacity="0.5" />
       </g>
       <g transform="translate(28 22) rotate(-3 150 100)">
         <rect x="0" y="0" width="280" height="174" rx="18" fill="#1E3A8A" opacity="0.65" />
@@ -177,7 +177,7 @@ function ParticleField() {
         if (p.y < 0 || p.y > h) p.vy *= -1
         ctx.beginPath()
         ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2)
-        ctx.fillStyle = 'rgba(37, 99, 235, 0.55)'
+        ctx.fillStyle = 'rgba(217, 119, 6, 0.55)'
         ctx.fill()
       }
       for (let i = 0; i < particles.length; i++) {
@@ -191,7 +191,7 @@ function ParticleField() {
             ctx.beginPath()
             ctx.moveTo(a.x, a.y)
             ctx.lineTo(b.x, b.y)
-            ctx.strokeStyle = `rgba(30, 58, 138, ${0.18 * (1 - dist / 140)})`
+            ctx.strokeStyle = `rgba(154, 52, 18, ${0.18 * (1 - dist / 140)})`
             ctx.lineWidth = 0.8
             ctx.stroke()
           }
@@ -256,18 +256,18 @@ export default function Hero() {
   }, [])
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-white via-[#F0F9FF] to-[#DBEAFE] text-slate-900">
+    <section className="relative overflow-hidden bg-gradient-to-br from-white via-[#FFF6E7] to-[#F9E5C8] text-stone-900">
       <div className="absolute inset-0 grid-bg opacity-50 pointer-events-none" />
       <ParticleField />
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#F8FAFC] pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#FAF6EF] pointer-events-none" />
 
-      <div className="absolute -top-24 -left-24 w-[480px] h-[480px] rounded-full bg-[#60A5FA] opacity-25 blur-[100px] animate-blob pointer-events-none" />
-      <div className="absolute -bottom-40 -right-24 w-[520px] h-[520px] rounded-full bg-[#38BDF8] opacity-20 blur-[120px] animate-blob-2 pointer-events-none" />
-      <div className="absolute top-1/3 right-1/4 w-72 h-72 rounded-full bg-[#A5B4FC] opacity-20 blur-[90px] animate-blob pointer-events-none" />
+      <div className="absolute -top-24 -left-24 w-[480px] h-[480px] rounded-full bg-[#FCD34D] opacity-25 blur-[100px] animate-blob pointer-events-none" />
+      <div className="absolute -bottom-40 -right-24 w-[520px] h-[520px] rounded-full bg-[#FBBF24] opacity-20 blur-[120px] animate-blob-2 pointer-events-none" />
+      <div className="absolute top-1/3 right-1/4 w-72 h-72 rounded-full bg-[#FDBA74] opacity-20 blur-[90px] animate-blob pointer-events-none" />
 
       {/* Floating decorative orbs */}
-      <div className="hidden md:block absolute top-28 left-[8%] w-2 h-2 rounded-full bg-[#2563EB] animate-pulse-dot" />
-      <div className="hidden md:block absolute top-72 right-[12%] w-1.5 h-1.5 rounded-full bg-[#0EA5E9] animate-pulse-dot" style={{ animationDelay: '0.6s' }} />
+      <div className="hidden md:block absolute top-28 left-[8%] w-2 h-2 rounded-full bg-[#EA580C] animate-pulse-dot" />
+      <div className="hidden md:block absolute top-72 right-[12%] w-1.5 h-1.5 rounded-full bg-[#F59E0B] animate-pulse-dot" style={{ animationDelay: '0.6s' }} />
       <div className="hidden md:block absolute bottom-40 left-[15%] w-2 h-2 rounded-full bg-[#F59E0B] animate-pulse-dot" style={{ animationDelay: '1.2s' }} />
 
       <div className="container-x relative pt-16 pb-16 md:pt-24 md:pb-24 lg:pt-28 lg:pb-32">
@@ -276,7 +276,7 @@ export default function Hero() {
             <div className="inline-flex items-center gap-2 bg-white text-[12px] md:text-[13px] font-semibold px-4 py-2 rounded-full mb-6 md:mb-8 animate-fade-up border border-[--border-strong] shadow-sm">
               <span className="w-2 h-2 rounded-full bg-[#10B981] animate-pulse-dot" />
               <span className="text-[#1E3A8A]">신용카드 · 소액결제 현금화 전문</span>
-              <span className="mx-1 w-px h-3 bg-slate-200" />
+              <span className="mx-1 w-px h-3 bg-stone-200" />
               <span className="text-[#B45309] font-bold">업계 1위</span>
             </div>
 
@@ -286,9 +286,9 @@ export default function Hero() {
               <span className="text-gold-gradient">현금</span>으로
             </h1>
 
-            <p className="text-[15px] md:text-[19px] text-slate-700 leading-[1.8] mb-6 md:mb-8 animate-fade-up-delay-2 break-keep max-w-[580px] mx-auto lg:mx-0">
-              <b className="text-slate-900">신용카드 · 소액결제 · 정보이용료</b> 모두 가능<br />
-              업계 최고 <b className="text-slate-900">94% 지급률</b> · 365일 24시간 상담.
+            <p className="text-[15px] md:text-[19px] text-stone-700 leading-[1.8] mb-6 md:mb-8 animate-fade-up-delay-2 break-keep max-w-[580px] mx-auto lg:mx-0">
+              <b className="text-stone-900">신용카드 · 소액결제 · 정보이용료</b> 모두 가능<br />
+              업계 최고 <b className="text-stone-900">94% 지급률</b> · 365일 24시간 상담.
             </p>
 
             {/* Service type chips */}
@@ -306,7 +306,7 @@ export default function Hero() {
               ].map((s) => (
                 <span
                   key={s.label}
-                  className="inline-flex items-center gap-1.5 bg-white border border-[--border-strong] text-[12px] md:text-[13px] font-semibold px-3 py-1.5 rounded-full text-slate-800 shadow-sm"
+                  className="inline-flex items-center gap-1.5 bg-white border border-[--border-strong] text-[12px] md:text-[13px] font-semibold px-3 py-1.5 rounded-full text-stone-800 shadow-sm"
                 >
                   {s.icon}
                   {s.label}
@@ -327,7 +327,7 @@ export default function Hero() {
                   <div className={`text-[15px] md:text-[20px] font-black leading-none ${s.accent}`}>
                     <span ref={s.v.ref}>{s.v.display}</span>
                   </div>
-                  <div className="text-[10px] md:text-[11px] text-slate-600 font-medium mt-1">{s.label}</div>
+                  <div className="text-[10px] md:text-[11px] text-stone-600 font-medium mt-1">{s.label}</div>
                 </div>
               ))}
             </div>
@@ -377,7 +377,7 @@ export default function Hero() {
               </a>
               <a
                 href="tel:01029181929"
-                className="relative overflow-hidden inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-[15px] md:text-[16px] font-bold text-white animate-glow-pulse bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#0EA5E9] hover:-translate-y-0.5 active:translate-y-0 transition-all"
+                className="relative overflow-hidden inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-[15px] md:text-[16px] font-bold text-white animate-glow-pulse bg-gradient-to-r from-[#B45309] via-[#EA580C] to-[#F59E0B] hover:-translate-y-0.5 active:translate-y-0 transition-all"
               >
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                   <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.81.36 1.6.68 2.34a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.74.32 1.53.55 2.34.68A2 2 0 0122 16.92z" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -406,7 +406,7 @@ export default function Hero() {
 
       {/* Divider wave */}
       <svg viewBox="0 0 1440 80" className="block w-full" preserveAspectRatio="none" aria-hidden>
-        <path d="M0 40 Q360 80 720 40 T1440 40 V80 H0 Z" fill="#F8FAFC" />
+        <path d="M0 40 Q360 80 720 40 T1440 40 V80 H0 Z" fill="#FAF6EF" />
       </svg>
     </section>
   )

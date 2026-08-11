@@ -3,7 +3,7 @@ type Brand = { name: string; color: string; accent?: string }
 const brands: Brand[] = [
   { name: '신한카드', color: '#0046FF' },
   { name: '삼성카드', color: '#1428A0' },
-  { name: '현대카드', color: '#0A1628' },
+  { name: '현대카드', color: '#26190F' },
   { name: 'KB국민카드', color: '#60584C', accent: '#FFB100' },
   { name: '하나카드', color: '#008485' },
   { name: '우리카드', color: '#0067AC' },
@@ -52,7 +52,7 @@ export default function Brands() {
     <section className="relative py-12 md:py-16 overflow-hidden bg-white reveal">
       <div className="container-x">
         <div className="text-center mb-6 md:mb-8">
-          <div className="inline-block text-[12px] md:text-[13px] font-bold text-[#1E3A8A] bg-[#EFF6FF] px-3.5 py-1.5 rounded-full mb-3">
+          <div className="inline-block text-[12px] md:text-[13px] font-bold text-[#1E3A8A] bg-[#FFF4E2] px-3.5 py-1.5 rounded-full mb-3">
             국내 전 카드사 현금화 가능
           </div>
           <h3 className="text-[20px] md:text-[28px] font-black leading-tight break-keep">

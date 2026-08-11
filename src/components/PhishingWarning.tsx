@@ -21,7 +21,7 @@ export default function PhishingWarning() {
   ]
 
   return (
-    <section className="relative py-14 md:py-20 bg-gradient-to-b from-[#F1F5F9] to-white overflow-hidden reveal">
+    <section className="relative py-14 md:py-20 bg-gradient-to-b from-[#F4EDE1] to-white overflow-hidden reveal">
       <div className="container-x relative max-w-[900px]">
         <div className="animate-red-glow rounded-2xl md:rounded-3xl">
           <div className="bg-[#DC2626] rounded-t-2xl md:rounded-t-3xl px-5 py-4 md:py-5 flex items-center justify-center gap-3 relative overflow-hidden">
@@ -81,10 +81,10 @@ export default function PhishingWarning() {
         </div>
 
         <div className="mt-8 md:mt-10 relative overflow-hidden rounded-2xl md:rounded-3xl">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#0A1628] via-[#1E3A8A] to-[#2563EB]" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#0B1B36] via-[#1E3A8A] to-[#2563EB]" />
           <div className="absolute inset-0 grid-bg-dark opacity-40 pointer-events-none" />
           <div className="absolute -top-16 -left-16 w-60 h-60 rounded-full bg-[#FCD34D] opacity-20 blur-3xl pointer-events-none" />
-          <div className="absolute -bottom-24 -right-16 w-72 h-72 rounded-full bg-[#0EA5E9] opacity-30 blur-3xl pointer-events-none" />
+          <div className="absolute -bottom-24 -right-16 w-72 h-72 rounded-full bg-[#F59E0B] opacity-30 blur-3xl pointer-events-none" />
 
           <div className="relative px-6 md:px-10 py-8 md:py-12 text-center">
             <div className="inline-flex items-center gap-2 bg-gradient-to-br from-[#37AEE2] to-[#1E96C8] text-white text-[11px] md:text-[12px] font-black px-3 py-1 rounded-full mb-4 shadow-[0_4px_12px_rgba(34,158,217,0.35)]">
@@ -97,7 +97,7 @@ export default function PhishingWarning() {
               신용카드 현금화 전문<br />
               <span className="text-gold-gradient">담페이는 오직 공식 채널에서!</span>
             </h3>
-            <p className="text-[13px] md:text-[16px] text-[#CBD5E1] mb-6 md:mb-7 break-keep">
+            <p className="text-[13px] md:text-[16px] text-[#D9CFC0] mb-6 md:mb-7 break-keep">
               공식 채널은 텔레그램 <b className="text-white">@dampay1</b>과 <b className="text-white">카카오톡 오픈채팅</b> 뿐이며, 그 외 <b className="text-white">모든 계정은 사칭이므로 주의</b>하세요!
             </p>
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3">

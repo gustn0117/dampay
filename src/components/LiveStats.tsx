@@ -9,11 +9,11 @@ export default function LiveStats() {
   const d = useCountUp(3, { suffix: '분', duration: 1000 })
 
   return (
-    <section className="relative py-10 md:py-14 overflow-hidden bg-[#020617] text-white reveal">
+    <section className="relative py-10 md:py-14 overflow-hidden bg-[#1A120C] text-white reveal">
       <div className="absolute inset-0 bg-mesh-navy opacity-80 pointer-events-none" />
       <div className="absolute inset-0 grid-bg-dark opacity-40 pointer-events-none" />
-      <div className="absolute -top-20 left-1/4 w-96 h-96 rounded-full bg-[#1E3A8A] opacity-45 blur-[100px] pointer-events-none animate-blob" />
-      <div className="absolute -bottom-20 right-1/4 w-96 h-96 rounded-full bg-[#0EA5E9] opacity-30 blur-[100px] pointer-events-none animate-blob-2" />
+      <div className="absolute -top-20 left-1/4 w-96 h-96 rounded-full bg-[#92400E] opacity-45 blur-[100px] pointer-events-none animate-blob" />
+      <div className="absolute -bottom-20 right-1/4 w-96 h-96 rounded-full bg-[#F59E0B] opacity-30 blur-[100px] pointer-events-none animate-blob-2" />
 
       <div className="container-x relative">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
@@ -48,14 +48,14 @@ export default function LiveStats() {
               key={i}
               className="relative glass-card-dark rounded-2xl px-4 py-5 md:px-6 md:py-6 text-center overflow-hidden"
             >
-              <div className="absolute -top-8 -right-8 w-24 h-24 rounded-full bg-[#3B82F6] opacity-15 blur-2xl pointer-events-none" />
+              <div className="absolute -top-8 -right-8 w-24 h-24 rounded-full bg-[#D97706] opacity-15 blur-2xl pointer-events-none" />
               <div className="relative inline-flex items-center justify-center w-10 h-10 rounded-xl bg-white/5 border border-white/10 mb-2 md:mb-3 animate-float-slow" style={{ animationDelay: `${i * 0.15}s` }}>
                 {s.icon}
               </div>
               <div className={`relative text-[28px] md:text-[38px] font-black leading-none mb-1 ${s.accent}`}>
                 <span ref={s.ref}>{s.value}</span>
               </div>
-              <div className="relative text-[11px] md:text-[13px] text-[#94A3B8] font-semibold">
+              <div className="relative text-[11px] md:text-[13px] text-[#A8A092] font-semibold">
                 {s.label}
               </div>
             </div>

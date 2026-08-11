@@ -45,9 +45,9 @@ export default function FAQ() {
   const [openIdx, setOpenIdx] = useState<number | null>(0)
 
   return (
-    <section id="faq" className="relative py-16 md:py-24 lg:py-28 overflow-hidden bg-gradient-to-b from-white to-[#EFF6FF] reveal">
+    <section id="faq" className="relative py-16 md:py-24 lg:py-28 overflow-hidden bg-gradient-to-b from-white to-[#FFF4E2] reveal">
       <div className="absolute inset-0 grid-bg opacity-30 pointer-events-none" />
-      <div className="absolute -top-20 right-10 w-80 h-80 rounded-full bg-[#3B82F6] opacity-10 blur-[80px] pointer-events-none" />
+      <div className="absolute -top-20 right-10 w-80 h-80 rounded-full bg-[#D97706] opacity-10 blur-[80px] pointer-events-none" />
 
       <div className="container-x relative max-w-[920px]">
         <div className="text-center mb-10 md:mb-14">
@@ -67,7 +67,7 @@ export default function FAQ() {
                 key={i}
                 className={`rounded-2xl border transition-all duration-500 overflow-hidden ${
                   isOpen
-                    ? 'border-transparent shadow-[0_16px_40px_rgba(30,58,138,0.18)]'
+                    ? 'border-transparent shadow-[0_16px_40px_rgba(154,52,18,0.18)]'
                     : 'border-[--border-strong] bg-white hover:border-[#60A5FA]'
                 }`}
               >
@@ -75,14 +75,14 @@ export default function FAQ() {
                   onClick={() => setOpenIdx(isOpen ? null : i)}
                   className={`relative flex items-center justify-between w-full px-5 md:px-7 py-4 md:py-5 text-[14px] md:text-[16px] text-left transition-colors ${
                     isOpen
-                      ? 'bg-gradient-to-r from-[#0A1628] via-[#1E3A8A] to-[#2563EB] text-white font-bold'
-                      : 'text-[--text] font-semibold hover:bg-[#EFF6FF]'
+                      ? 'bg-gradient-to-r from-[#26190F] via-[#1E3A8A] to-[#2563EB] text-white font-bold'
+                      : 'text-[--text] font-semibold hover:bg-[#FFF4E2]'
                   }`}
                 >
                   {isOpen && <span className="absolute inset-0 grid-bg-dark opacity-40 pointer-events-none" />}
                   <span className="relative flex items-center gap-3 pr-4">
                     <span className={`inline-flex items-center justify-center w-7 h-7 rounded-lg text-[12px] md:text-[13px] font-black shrink-0 ${
-                      isOpen ? 'bg-[#FCD34D] text-[#7C2D12]' : 'bg-[#DBEAFE] text-[#1E3A8A]'
+                      isOpen ? 'bg-[#FCD34D] text-[#7C2D12]' : 'bg-[#F9E5C8] text-[#1E3A8A]'
                     }`}>Q</span>
                     <span className="break-keep">{item.q}</span>
                   </span>

@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --navy-abyss: #020617;
-  --navy-deep: #0A1628;
-  --navy: #0F1E3D;
+  --navy-abyss: #1A120C;
+  --navy-deep: #26190F;
+  --navy: #2E2115;
   --navy-mid: #1E3A8A;
   --navy-bright: #2563EB;
   --navy-blue: #3B82F6;
@@ -14,19 +14,19 @@
   --cyan: #06B6D4;
   --gold: #F59E0B;
   --gold-light: #FCD34D;
-  --silver: #CBD5E1;
-  --silver-light: #E2E8F0;
+  --silver: #D9CFC0;
+  --silver-light: #EAE2D4;
   --accent-green: #10B981;
   --accent-red: #EF4444;
-  --bg: #F8FAFC;
-  --bg-alt: #F1F5F9;
-  --bg-soft: #EFF6FF;
+  --bg: #FAF6EF;
+  --bg-alt: #F4EDE1;
+  --bg-soft: #FFF4E2;
   --card: #FFFFFF;
-  --text: #0F172A;
-  --text-sub: #475569;
-  --text-light: #94A3B8;
-  --border: #E2E8F0;
-  --border-strong: #CBD5E1;
+  --text: #1C1917;
+  --text-sub: #57534E;
+  --text-light: #A8A092;
+  --border: #EAE2D4;
+  --border-strong: #D9CFC0;
 }
 
 html {
@@ -87,18 +87,18 @@ body {
   -webkit-backdrop-filter: blur(20px) saturate(160%);
   border: 1px solid rgba(255, 255, 255, 0.6);
   box-shadow:
-    0 4px 24px rgba(15, 30, 61, 0.06),
-    0 1px 3px rgba(15, 30, 61, 0.04),
+    0 4px 24px rgba(46, 33, 21, 0.06),
+    0 1px 3px rgba(46, 33, 21, 0.04),
     inset 0 1px 0 rgba(255, 255, 255, 0.6);
 }
 
 .glass-card-dark {
-  background: rgba(15, 30, 61, 0.55);
+  background: rgba(46, 33, 21, 0.55);
   backdrop-filter: blur(20px) saturate(160%);
   -webkit-backdrop-filter: blur(20px) saturate(160%);
-  border: 1px solid rgba(96, 165, 250, 0.15);
+  border: 1px solid rgba(251, 191, 36, 0.16);
   box-shadow:
-    0 10px 40px rgba(2, 6, 23, 0.5),
+    0 10px 40px rgba(26, 18, 12, 0.5),
     inset 0 1px 0 rgba(255, 255, 255, 0.08);
 }
 
@@ -111,8 +111,8 @@ body {
 .card-3d:hover {
   transform: translateY(-6px) rotateX(2deg);
   box-shadow:
-    0 20px 60px rgba(30, 58, 138, 0.2),
-    0 8px 20px rgba(59, 130, 246, 0.1);
+    0 20px 60px rgba(154, 52, 18, 0.2),
+    0 8px 20px rgba(234, 88, 12, 0.1);
 }
 
 .shine-overlay {
@@ -175,8 +175,8 @@ body {
 }
 
 @keyframes glowPulse {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4), 0 10px 40px rgba(30, 58, 138, 0.35); }
-  50% { box-shadow: 0 0 0 12px rgba(59, 130, 246, 0), 0 16px 60px rgba(30, 58, 138, 0.5); }
+  0%, 100% { box-shadow: 0 0 0 0 rgba(234, 88, 12, 0.4), 0 10px 40px rgba(154, 52, 18, 0.35); }
+  50% { box-shadow: 0 0 0 12px rgba(234, 88, 12, 0), 0 16px 60px rgba(154, 52, 18, 0.5); }
 }
 
 @keyframes goldGlow {
@@ -248,16 +248,16 @@ body {
 /* ===================== Grid background pattern ===================== */
 .grid-bg {
   background-image:
-    linear-gradient(rgba(59, 130, 246, 0.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(59, 130, 246, 0.06) 1px, transparent 1px);
+    linear-gradient(rgba(234, 88, 12, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(234, 88, 12, 0.06) 1px, transparent 1px);
   background-size: 40px 40px;
   animation: gridFlow 18s linear infinite;
 }
 
 .grid-bg-dark {
   background-image:
-    linear-gradient(rgba(96, 165, 250, 0.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(96, 165, 250, 0.08) 1px, transparent 1px);
+    linear-gradient(rgba(251, 191, 36, 0.09) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(251, 191, 36, 0.09) 1px, transparent 1px);
   background-size: 40px 40px;
   animation: gridFlow 18s linear infinite;
 }
@@ -269,7 +269,7 @@ body {
   aspect-ratio: 1 / 1;
   max-width: 280px;
   margin: 0 auto;
-  filter: drop-shadow(0 20px 30px rgba(30, 58, 138, 0.18));
+  filter: drop-shadow(0 20px 30px rgba(154, 52, 18, 0.18));
 }
 .step-ring svg {
   width: 100%;
@@ -323,7 +323,7 @@ body {
 
 /* subtle text shadow for navy-on-white */
 .text-nav-shadow {
-  text-shadow: 0 1px 2px rgba(30, 58, 138, 0.08);
+  text-shadow: 0 1px 2px rgba(154, 52, 18, 0.08);
 }
 
 @keyframes pingSlow {

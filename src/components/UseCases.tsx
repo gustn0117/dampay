@@ -51,7 +51,7 @@ const cases: Case[] = [
           </linearGradient>
           <linearGradient id="c3b" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0%" stopColor="#1E3A8A" />
-            <stop offset="100%" stopColor="#0A1628" />
+            <stop offset="100%" stopColor="#26190F" />
           </linearGradient>
         </defs>
         <path d="M40 68c-14-10-24-18-24-30 0-8 6-14 14-14 4 0 8 2 10 5 2-3 6-5 10-5 8 0 14 6 14 14 0 12-10 20-24 30z" fill="url(#c3)" />
@@ -143,7 +143,7 @@ const cases: Case[] = [
         <defs>
           <linearGradient id="c8" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0%" stopColor="#1E3A8A" />
-            <stop offset="100%" stopColor="#0A1628" />
+            <stop offset="100%" stopColor="#26190F" />
           </linearGradient>
         </defs>
         <path d="M56 14l-10 10 10 10 8-8-10-10 10-2-8-8-10 2 10 6z" fill="#FCD34D" />
@@ -156,7 +156,7 @@ const cases: Case[] = [
 
 export default function UseCases() {
   return (
-    <section className="relative py-16 md:py-24 lg:py-28 overflow-hidden bg-gradient-to-b from-[#EFF6FF] to-white reveal">
+    <section className="relative py-16 md:py-24 lg:py-28 overflow-hidden bg-gradient-to-b from-[#FFF4E2] to-white reveal">
       <div className="absolute inset-0 grid-bg opacity-30 pointer-events-none" />
       <div className="container-x relative">
         <div className="text-center mb-12 md:mb-16">

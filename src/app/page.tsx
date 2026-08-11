@@ -59,7 +59,7 @@ const jsonLd = {
 
 function TopNav() {
   return (
-    <header className="sticky top-0 z-40 bg-[#0A1628]/80 backdrop-blur-xl border-b border-white/10">
+    <header className="sticky top-0 z-40 bg-[#26190F]/80 backdrop-blur-xl border-b border-white/10">
       <div className="container-x flex items-center justify-between h-14 md:h-16">
         <a href="/" className="inline-flex items-center gap-2.5 group">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -72,7 +72,7 @@ function TopNav() {
           />
           <span className="text-[18px] md:text-[22px] font-black text-brand-gradient tracking-tight">담페이</span>
         </a>
-        <nav className="hidden md:flex items-center gap-7 text-[14px] font-semibold text-[#94A3B8]">
+        <nav className="hidden md:flex items-center gap-7 text-[14px] font-semibold text-[#A8A092]">
           <a href="#intro" className="hover:text-white transition">현금화 소개</a>
           <a href="#benefits" className="hover:text-white transition">혜택</a>
           <a href="#steps" className="hover:text-white transition">이용 순서</a>

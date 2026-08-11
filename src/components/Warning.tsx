@@ -7,7 +7,7 @@ const perks = [
         <defs>
           <linearGradient id="p1" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0%" stopColor="#1E3A8A" />
-            <stop offset="100%" stopColor="#0A1628" />
+            <stop offset="100%" stopColor="#26190F" />
           </linearGradient>
           <linearGradient id="p1gold" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0%" stopColor="#FDE68A" />
@@ -25,7 +25,7 @@ const perks = [
         <ellipse cx="70" cy="124" rx="54" ry="5" fill="url(#p1glow)" />
         <rect x="18" y="32" width="104" height="62" rx="8" fill="url(#p1)" />
         <rect x="18" y="32" width="104" height="62" rx="8" fill="url(#p1shine)" />
-        <rect x="18" y="48" width="104" height="10" fill="#0A1628" opacity="0.6" />
+        <rect x="18" y="48" width="104" height="10" fill="#26190F" opacity="0.6" />
         {/* Stacks of coins */}
         <g transform="translate(36 62)">
           <ellipse cx="10" cy="26" rx="10" ry="3" fill="#92400E" opacity="0.8" />
@@ -85,7 +85,7 @@ const perks = [
       <svg viewBox="0 0 140 140" className="w-20 h-20 md:w-24 md:h-24">
         <defs>
           <linearGradient id="p3a" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stopColor="#0A1628" />
+            <stop offset="0%" stopColor="#26190F" />
             <stop offset="100%" stopColor="#1E3A8A" />
           </linearGradient>
           <linearGradient id="p3b" x1="0" y1="0" x2="1" y2="1">
@@ -128,10 +128,10 @@ const perks = [
 
 export default function Warning() {
   return (
-    <section className="relative py-16 md:py-24 lg:py-28 overflow-hidden bg-[#0A1628] text-white reveal">
+    <section className="relative py-16 md:py-24 lg:py-28 overflow-hidden bg-[#26190F] text-white reveal">
       <div className="absolute inset-0 grid-bg-dark opacity-40 pointer-events-none" />
-      <div className="absolute -top-40 left-1/4 w-96 h-96 rounded-full bg-[#1E3A8A] opacity-40 blur-[100px] pointer-events-none animate-blob" />
-      <div className="absolute -bottom-40 right-1/4 w-[520px] h-[520px] rounded-full bg-[#0EA5E9] opacity-25 blur-[120px] pointer-events-none animate-blob-2" />
+      <div className="absolute -top-40 left-1/4 w-96 h-96 rounded-full bg-[#92400E] opacity-40 blur-[100px] pointer-events-none animate-blob" />
+      <div className="absolute -bottom-40 right-1/4 w-[520px] h-[520px] rounded-full bg-[#F59E0B] opacity-25 blur-[120px] pointer-events-none animate-blob-2" />
 
       <div className="container-x relative">
         <div className="text-center mb-12 md:mb-16">
@@ -151,12 +151,12 @@ export default function Warning() {
               key={p.title}
               className="card-3d relative glass-card-dark rounded-2xl md:rounded-3xl p-7 md:p-9 text-center overflow-hidden"
             >
-              <div className="absolute -top-16 -right-16 w-40 h-40 rounded-full bg-[#3B82F6] opacity-20 blur-3xl pointer-events-none" />
+              <div className="absolute -top-16 -right-16 w-40 h-40 rounded-full bg-[#D97706] opacity-20 blur-3xl pointer-events-none" />
               <div className="relative flex justify-center mb-5 md:mb-6 animate-float-slow">{p.svg}</div>
               <h3 className="relative text-[19px] md:text-[24px] font-black mb-2 md:mb-3 break-keep text-white">
                 {p.title}
               </h3>
-              <p className="relative text-[13px] md:text-[15px] text-[#CBD5E1] leading-[1.75] break-keep">{p.desc}</p>
+              <p className="relative text-[13px] md:text-[15px] text-[#D9CFC0] leading-[1.75] break-keep">{p.desc}</p>
               <span className="shine-overlay" />
             </div>
           ))}
