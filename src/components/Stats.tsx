@@ -228,10 +228,10 @@ export default function Stats() {
       <div className="container-x relative">
         <div className="text-center mb-12 md:mb-16">
           <div className="inline-block text-[12px] md:text-[13px] font-bold text-[#1E3A8A] bg-white border border-[--border-strong] px-3.5 py-1.5 rounded-full mb-4 shadow-sm">
-            폭시티켓 6가지 혜택
+            담페이 6가지 혜택
           </div>
           <h2 className="text-[26px] md:text-[40px] lg:text-[48px] font-black leading-tight break-keep">
-            왜 <span className="text-brand-gradient">폭시티켓</span>을 선택할까요?
+            왜 <span className="text-brand-gradient">담페이</span>를 선택할까요?
           </h2>
           <p className="mt-4 text-[14px] md:text-[17px] text-[--text-sub] max-w-[620px] mx-auto break-keep">
             업계 최고 지급률과 무사고 운영으로 신뢰받는 카드 현금화 전문 업체

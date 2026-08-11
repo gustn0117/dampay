@@ -74,7 +74,7 @@ function PremiumCard3D({ tilt }: { tilt: { rx: number; ry: number } }) {
         <rect x="0" y="0" width="280" height="2" rx="1" fill="url(#cardEdgeG)" />
 
         {/* Brand label */}
-        <text x="22" y="34" fill="#FFFFFF" fontSize="13" fontWeight="700" letterSpacing="2">FOXY TICKET</text>
+        <text x="22" y="34" fill="#FFFFFF" fontSize="13" fontWeight="700" letterSpacing="2">DAMPAY</text>
 
         {/* Chip */}
         <g>
@@ -99,7 +99,7 @@ function PremiumCard3D({ tilt }: { tilt: { rx: number; ry: number } }) {
 
         {/* Holder / expiry */}
         <text x="22" y="156" fill="#93C5FD" fontSize="9" letterSpacing="1.5">CARD HOLDER</text>
-        <text x="22" y="167" fill="#FFFFFF" fontSize="11" letterSpacing="2" fontWeight="600">FOXY MEMBER</text>
+        <text x="22" y="167" fill="#FFFFFF" fontSize="11" letterSpacing="2" fontWeight="600">DAMPAY MEMBER</text>
         <text x="200" y="156" fill="#93C5FD" fontSize="9" letterSpacing="1.5">VALID THRU</text>
         <text x="200" y="167" fill="#FFFFFF" fontSize="11" letterSpacing="2" fontWeight="600">12 / 28</text>
 
@@ -354,7 +354,7 @@ export default function Hero() {
 
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center lg:justify-start gap-3 animate-fade-up-delay-3">
               <a
-                href="https://t.me/foxytiket"
+                href="https://t.me/dampay1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative overflow-hidden inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-br from-[#37AEE2] to-[#1E96C8] text-white rounded-full text-[15px] md:text-[16px] font-bold shadow-[0_12px_32px_rgba(34,158,217,0.4)] hover:-translate-y-0.5 active:translate-y-0 transition-all"
@@ -365,13 +365,24 @@ export default function Hero() {
                 텔레그램 1분 상담
               </a>
               <a
-                href="tel:01083520358"
+                href="https://open.kakao.com/o/sc6YnjIi"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative overflow-hidden inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-br from-[#FEE500] to-[#F5D400] text-[#191919] rounded-full text-[15px] md:text-[16px] font-bold shadow-[0_12px_32px_rgba(254,229,0,0.4)] hover:-translate-y-0.5 active:translate-y-0 transition-all"
+              >
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="#191919">
+                  <path d="M12 3C6.48 3 2 6.48 2 10.8c0 2.76 1.86 5.18 4.66 6.56-.15.52-.97 3.36-1 3.58 0 0-.02.17.09.24.11.07.24.02.24.02.32-.04 3.68-2.4 4.26-2.81.57.08 1.15.12 1.75.12 5.52 0 10-3.48 10-7.71C22 6.48 17.52 3 12 3z"/>
+                </svg>
+                카카오톡 상담
+              </a>
+              <a
+                href="tel:01029181929"
                 className="relative overflow-hidden inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-[15px] md:text-[16px] font-bold text-white animate-glow-pulse bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#0EA5E9] hover:-translate-y-0.5 active:translate-y-0 transition-all"
               >
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                   <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.81.36 1.6.68 2.34a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.74.32 1.53.55 2.34.68A2 2 0 0122 16.92z" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-                010-8352-0358
+                010-2918-1929
               </a>
             </div>
           </div>

@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://foxy-ticket.hsweb.pics/sitemap.xml',
+    sitemap: 'https://dampay.hsweb.pics/sitemap.xml',
   }
 }

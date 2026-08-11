@@ -19,12 +19,12 @@ import Brands from '@/components/Brands'
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: '폭시티켓',
-  alternateName: ['FoxyTicket', '폭시티켓 솔루션'],
-  url: 'https://foxy-ticket.hsweb.pics',
+  name: '담페이',
+  alternateName: ['Dampay', '담페이 솔루션'],
+  url: 'https://dampay.hsweb.pics',
   description:
-    '폭시티켓은 신용카드 현금화, 소액결제 현금화, 정보이용료 현금화 전문 업체입니다. 업계 최고 94% 지급률, 365일 24시간 상담, 5년간 무사고 운영. 앱카드·무이자 할부 가능, 신용한도 영향 없음.',
-  telephone: '+82-10-8352-0358',
+    '담페이는 신용카드 현금화, 소액결제 현금화, 정보이용료 현금화 전문 업체입니다. 업계 최고 94% 지급률, 365일 24시간 상담, 5년간 무사고 운영. 앱카드·무이자 할부 가능, 신용한도 영향 없음.',
+  telephone: '+82-10-2918-1929',
   areaServed: { '@type': 'Country', name: 'KR' },
   serviceType: [
     '신용카드현금화',
@@ -33,13 +33,13 @@ const jsonLd = {
     '휴대폰현금화',
     '카드깡',
   ],
-  slogan: '업계 최고 94% 지급률, 365일 24시간 상담 - 폭시티켓',
+  slogan: '업계 최고 94% 지급률, 365일 24시간 상담 - 담페이',
   availableChannel: {
     '@type': 'ServiceChannel',
-    serviceUrl: 'https://foxy-ticket.hsweb.pics',
+    serviceUrl: 'https://dampay.hsweb.pics',
     servicePhone: {
       '@type': 'ContactPoint',
-      telephone: '+82-10-8352-0358',
+      telephone: '+82-10-2918-1929',
       contactType: 'customer service',
       availableLanguage: 'Korean',
       hoursAvailable: {
@@ -64,13 +64,13 @@ function TopNav() {
         <a href="/" className="inline-flex items-center gap-2.5 group">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/fox-only-256.png"
-            alt="폭시티켓 로고"
+            src="/dampay-logo-256.png"
+            alt="담페이 로고"
             width={48}
             height={48}
             className="w-10 h-10 md:w-12 md:h-12 object-contain drop-shadow-[0_6px_16px_rgba(96,165,250,0.55)] transition-transform duration-300 group-hover:scale-110"
           />
-          <span className="text-[18px] md:text-[22px] font-black text-brand-gradient tracking-tight">폭시티켓</span>
+          <span className="text-[18px] md:text-[22px] font-black text-brand-gradient tracking-tight">담페이</span>
         </a>
         <nav className="hidden md:flex items-center gap-7 text-[14px] font-semibold text-[#94A3B8]">
           <a href="#intro" className="hover:text-white transition">현금화 소개</a>
@@ -80,7 +80,7 @@ function TopNav() {
           <a href="#faq" className="hover:text-white transition">FAQ</a>
         </nav>
         <a
-          href="https://t.me/foxytiket"
+          href="https://t.me/dampay1"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-1.5 px-3.5 md:px-5 py-2 md:py-2.5 bg-gradient-to-br from-[#37AEE2] to-[#1E96C8] text-white rounded-full text-[12px] md:text-[13px] font-bold shadow-[0_4px_12px_rgba(34,158,217,0.35)] hover:brightness-[1.05] transition"

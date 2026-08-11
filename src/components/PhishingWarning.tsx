@@ -91,26 +91,39 @@ export default function PhishingWarning() {
               <svg width="14" height="14" viewBox="0 0 24 24" fill="#fff">
                 <path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/>
               </svg>
-              Telegram Channel · @foxytiket
+              Telegram Channel · @dampay1
             </div>
             <h3 className="text-[19px] md:text-[30px] font-black mb-2 text-white break-keep">
               신용카드 현금화 전문<br />
-              <span className="text-gold-gradient">폭시티켓은 오직 텔레그램에서!</span>
+              <span className="text-gold-gradient">담페이는 오직 공식 채널에서!</span>
             </h3>
             <p className="text-[13px] md:text-[16px] text-[#CBD5E1] mb-6 md:mb-7 break-keep">
-              공식 채널은 <b className="text-white">@foxytiket</b> 단 하나이며, 그 외 <b className="text-white">모든 계정은 사칭이므로 주의</b>하세요!
+              공식 채널은 텔레그램 <b className="text-white">@dampay1</b>과 <b className="text-white">카카오톡 오픈채팅</b> 뿐이며, 그 외 <b className="text-white">모든 계정은 사칭이므로 주의</b>하세요!
             </p>
-            <a
-              href="https://t.me/foxytiket"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-7 md:px-12 py-4 md:py-5 bg-gradient-to-br from-[#37AEE2] to-[#1E96C8] text-white rounded-full text-[14px] md:text-[16px] font-black shadow-[0_12px_32px_rgba(34,158,217,0.5)] hover:-translate-y-0.5 transition-all"
-            >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="#fff">
-                <path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/>
-              </svg>
-              텔레그램으로 바로 상담하기
-            </a>
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3">
+              <a
+                href="https://t.me/dampay1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-7 md:px-10 py-4 md:py-5 bg-gradient-to-br from-[#37AEE2] to-[#1E96C8] text-white rounded-full text-[14px] md:text-[16px] font-black shadow-[0_12px_32px_rgba(34,158,217,0.5)] hover:-translate-y-0.5 transition-all"
+              >
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="#fff">
+                  <path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/>
+                </svg>
+                텔레그램 바로 상담
+              </a>
+              <a
+                href="https://open.kakao.com/o/sc6YnjIi"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-7 md:px-10 py-4 md:py-5 bg-gradient-to-br from-[#FEE500] to-[#F5D400] text-[#191919] rounded-full text-[14px] md:text-[16px] font-black shadow-[0_12px_32px_rgba(254,229,0,0.35)] hover:-translate-y-0.5 transition-all"
+              >
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="#191919">
+                  <path d="M12 3C6.48 3 2 6.48 2 10.8c0 2.76 1.86 5.18 4.66 6.56-.15.52-.97 3.36-1 3.58 0 0-.02.17.09.24.11.07.24.02.24.02.32-.04 3.68-2.4 4.26-2.81.57.08 1.15.12 1.75.12 5.52 0 10-3.48 10-7.71C22 6.48 17.52 3 12 3z"/>
+                </svg>
+                카카오톡 바로 상담
+              </a>
+            </div>
           </div>
         </div>
       </div>

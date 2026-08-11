@@ -161,7 +161,7 @@ export default function UseCases() {
       <div className="container-x relative">
         <div className="text-center mb-12 md:mb-16">
           <div className="inline-block text-[12px] md:text-[13px] font-bold text-[#1E3A8A] bg-white border border-[--border-strong] px-3.5 py-1.5 rounded-full mb-4 shadow-sm">
-            이럴 때 폭시티켓
+            이럴 때 담페이
           </div>
           <h2 className="text-[26px] md:text-[40px] lg:text-[48px] font-black leading-tight break-keep">
             이런 분들이 <span className="text-brand-gradient">많이 이용</span>해요

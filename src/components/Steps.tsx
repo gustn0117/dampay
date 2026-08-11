@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from 'react'
 const steps = [
   {
     num: '01',
-    top: '텔레그램 및 전화로',
+    top: '텔레그램 · 카톡 · 전화로',
     highlight: '365일 24시간 가능',
     bottom: '문의 상담하기',
     colorA: '#1E3A8A',
@@ -61,7 +61,7 @@ export default function Steps() {
       <div className="container-x relative">
         <div className="text-center mb-14 md:mb-20">
           <div className="inline-block text-[12px] md:text-[13px] font-bold text-[#1E3A8A] bg-white border border-[--border-strong] px-3.5 py-1.5 rounded-full mb-4 shadow-sm">
-            폭시티켓 신용카드 이용 시
+            담페이 신용카드 이용 시
           </div>
           <h2 className="text-[28px] md:text-[42px] lg:text-[50px] font-black leading-tight mb-3 break-keep">
             한도만큼! <span className="text-brand-gradient">비상금 매입 순서</span>

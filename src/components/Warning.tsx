@@ -136,7 +136,7 @@ export default function Warning() {
       <div className="container-x relative">
         <div className="text-center mb-12 md:mb-16">
           <div className="inline-block text-[12px] md:text-[13px] font-bold text-[#FCD34D] bg-white/5 border border-[#FCD34D]/30 px-3.5 py-1.5 rounded-full mb-4">
-            폭시티켓만의 3가지 강점
+            담페이만의 3가지 강점
           </div>
           <h2 className="text-[26px] md:text-[40px] lg:text-[48px] font-black leading-tight break-keep text-white">
             최저 수수료로<br className="md:hidden" />

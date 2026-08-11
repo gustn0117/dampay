@@ -10,13 +10,13 @@ export default function Footer() {
         <div className="inline-flex items-center gap-3 mb-3">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/fox-only-256.png"
-            alt="폭시티켓 로고"
+            src="/dampay-logo-256.png"
+            alt="담페이 로고"
             width={56}
             height={56}
             className="w-12 h-12 md:w-14 md:h-14 object-contain drop-shadow-[0_8px_20px_rgba(96,165,250,0.5)]"
           />
-          <span className="text-[24px] md:text-[32px] font-black text-brand-gradient tracking-tight">폭시티켓</span>
+          <span className="text-[24px] md:text-[32px] font-black text-brand-gradient tracking-tight">담페이</span>
         </div>
         <p className="text-[12px] md:text-[15px] text-[#94A3B8] mb-8 md:mb-10 break-keep">
           안전하고 빠른 신용카드 · 소액결제 현금화 전문 서비스
@@ -42,9 +42,10 @@ export default function Footer() {
               <span className="text-[11px] md:text-[13px] text-[#94A3B8] font-semibold uppercase tracking-wider">연락처</span>
             </div>
             <div className="text-[13px] md:text-[15px] text-white/90 font-semibold leading-[1.95]">
-              <div>상호명 : 폭시티켓</div>
-              <div>대표전화 : <a href="tel:01083520358" className="text-[#37AEE2] font-black">010-8352-0358</a></div>
-              <div>상담 : 텔레그램 공식 채널 <a href="https://t.me/foxytiket" target="_blank" rel="noopener noreferrer" className="text-[#37AEE2] font-black">@foxytiket</a></div>
+              <div>상호명 : 담페이</div>
+              <div>대표전화 : <a href="tel:01029181929" className="text-[#37AEE2] font-black">010-2918-1929</a></div>
+              <div>상담 : 텔레그램 공식 채널 <a href="https://t.me/dampay1" target="_blank" rel="noopener noreferrer" className="text-[#37AEE2] font-black">@dampay1</a></div>
+              <div>카카오톡 : <a href="https://open.kakao.com/o/sc6YnjIi" target="_blank" rel="noopener noreferrer" className="text-[#FEE500] font-black">오픈채팅 상담하기</a></div>
             </div>
           </div>
           <div className="glass-card-dark rounded-2xl p-5 md:p-6">
@@ -73,7 +74,7 @@ export default function Footer() {
         </div>
 
         <div className="w-12 h-px bg-white/10 mx-auto my-7 md:my-10" />
-        <div className="text-[11px] md:text-[13px] text-[#475569]">&copy; 2026 폭시티켓 (FoxyTicket). All rights reserved.</div>
+        <div className="text-[11px] md:text-[13px] text-[#475569]">&copy; 2026 담페이 (Dampay). All rights reserved.</div>
       </div>
     </footer>
   )

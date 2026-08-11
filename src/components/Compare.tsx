@@ -14,10 +14,10 @@ export default function Compare() {
       <div className="container-x relative">
         <div className="text-center mb-12 md:mb-16">
           <div className="inline-block text-[12px] md:text-[13px] font-bold text-[#0EA5E9] bg-[#E0F2FE] px-3.5 py-1.5 rounded-full mb-4">
-            일반 대출 vs 폭시티켓
+            일반 대출 vs 담페이
           </div>
           <h2 className="text-[26px] md:text-[40px] lg:text-[48px] font-black leading-tight break-keep">
-            왜 <span className="text-brand-gradient">폭시티켓</span>이<br className="md:hidden" /> 더 유리할까요?
+            왜 <span className="text-brand-gradient">담페이</span>가<br className="md:hidden" /> 더 유리할까요?
           </h2>
         </div>
 
@@ -28,7 +28,7 @@ export default function Compare() {
               <div className="absolute inset-0 grid-bg-dark opacity-40 pointer-events-none" />
               <div className="relative text-[#94A3B8]">항목</div>
               <div className="relative text-[#CBD5E1]">일반 대출</div>
-              <div className="relative text-gold-gradient">폭시티켓</div>
+              <div className="relative text-gold-gradient">담페이</div>
             </div>
 
             {rows.map(([label, bad, good], i) => (

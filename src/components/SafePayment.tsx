@@ -98,7 +98,7 @@ const limits: Limit[] = [
         <g transform="translate(14 18)">
           <rect x="0" y="0" width="132" height="84" rx="10" fill="url(#l3)" />
           <rect x="0" y="0" width="132" height="84" rx="10" fill="url(#l3shine)" />
-          <text x="10" y="18" fill="#fff" fontSize="8" fontWeight="700" letterSpacing="1">FOXY TICKET</text>
+          <text x="10" y="18" fill="#fff" fontSize="8" fontWeight="700" letterSpacing="1">DAMPAY</text>
           <rect x="10" y="28" width="22" height="16" rx="3" fill="url(#l3gold)" />
           <path d="M12 36h18 M21 30v12" stroke="#92400E" strokeOpacity="0.5" strokeWidth="0.8" />
           <text x="10" y="60" fill="#E0EAFA" fontSize="9" fontFamily="monospace" letterSpacing="2">1234 5678 9012</text>
@@ -129,7 +129,7 @@ export default function SafePayment() {
           </h2>
           <p className="text-[14px] md:text-[17px] text-[--text-sub] leading-[1.85] break-keep">
             신용카드 현금화는 <b className="text-[--text]">긴급한 자금이 필요할 때 신용카드 결제 한도를 활용해 현금을 확보</b>하는 방식입니다.
-            폭시티켓은 업계 최고 94% 지급률로 빠르고 안전하게 처리해드립니다.
+            담페이는 업계 최고 94% 지급률로 빠르고 안전하게 처리해드립니다.
           </p>
         </div>
 
@@ -183,9 +183,9 @@ export default function SafePayment() {
             <div className="text-[30px] md:text-[48px] font-black tracking-[-1px] leading-none mb-3">
               <span className="text-navy-shine">내 한도 즉시 확인</span>
             </div>
-            <p className="text-[13px] md:text-[16px] text-[--text-sub] mb-7 break-keep">언제 어디서든 가능한 나만의 비상금, 폭시티켓</p>
+            <p className="text-[13px] md:text-[16px] text-[--text-sub] mb-7 break-keep">언제 어디서든 가능한 나만의 비상금, 담페이</p>
             <a
-              href="https://t.me/foxytiket"
+              href="https://t.me/dampay1"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative inline-flex items-center justify-center gap-2 w-full md:w-auto md:px-12 py-4 md:py-5 bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#0EA5E9] text-white rounded-2xl md:rounded-full text-[15px] md:text-[17px] font-bold overflow-hidden animate-glow-pulse"
