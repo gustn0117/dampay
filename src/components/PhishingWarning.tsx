@@ -113,7 +113,7 @@ export default function PhishingWarning() {
                 텔레그램 바로 상담
               </a>
               <a
-                href="https://open.kakao.com/o/sc6YnjIi"
+                href="https://open.kakao.com/o/sIpkxXRi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-7 md:px-10 py-4 md:py-5 bg-gradient-to-br from-[#FEE500] to-[#F5D400] text-[#191919] rounded-full text-[14px] md:text-[16px] font-black shadow-[0_12px_32px_rgba(254,229,0,0.35)] hover:-translate-y-0.5 transition-all"

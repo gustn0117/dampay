@@ -19,7 +19,7 @@ export default function StickyCTA() {
             텔레그램 상담
           </a>
           <a
-            href="https://open.kakao.com/o/sc6YnjIi"
+            href="https://open.kakao.com/o/sIpkxXRi"
             target="_blank"
             rel="noopener noreferrer"
             className="relative flex-1 flex items-center justify-center gap-1.5 md:gap-2 py-3.5 md:py-4 bg-gradient-to-br from-[#FEE500] to-[#F5D400] text-[#191919] rounded-xl md:rounded-2xl text-[12px] md:text-[15px] font-bold whitespace-nowrap shadow-[0_8px_24px_rgba(254,229,0,0.35)] hover:brightness-[1.03] active:scale-[0.98] transition-all overflow-hidden"

@@ -365,7 +365,7 @@ export default function Hero() {
                 텔레그램 1분 상담
               </a>
               <a
-                href="https://open.kakao.com/o/sc6YnjIi"
+                href="https://open.kakao.com/o/sIpkxXRi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative overflow-hidden inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-br from-[#FEE500] to-[#F5D400] text-[#191919] rounded-full text-[15px] md:text-[16px] font-bold shadow-[0_12px_32px_rgba(254,229,0,0.4)] hover:-translate-y-0.5 active:translate-y-0 transition-all"
