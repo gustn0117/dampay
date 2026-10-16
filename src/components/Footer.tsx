@@ -45,7 +45,7 @@ export default function Footer() {
               <div>상호명 : 담페이</div>
               <div>대표전화 : <a href="tel:01029181929" className="text-[#37AEE2] font-black">010-2918-1929</a></div>
               <div>상담 : 텔레그램 공식 채널 <a href="https://t.me/dampay1" target="_blank" rel="noopener noreferrer" className="text-[#37AEE2] font-black">@dampay1</a></div>
-              <div>카카오톡 : <a href="https://open.kakao.com/o/sIpkxXRi" target="_blank" rel="noopener noreferrer" className="text-[#FEE500] font-black">오픈채팅 상담하기</a></div>
+              <div>문자 문의 : <a href="sms:01029181929" className="text-[#4ADE80] font-black">010-2918-1929</a></div>
             </div>
           </div>
           <div className="glass-card-dark rounded-2xl p-5 md:p-6">

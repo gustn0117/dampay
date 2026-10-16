@@ -19,15 +19,14 @@ export default function StickyCTA() {
             텔레그램 상담
           </a>
           <a
-            href="https://open.kakao.com/o/sIpkxXRi"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="relative flex-1 flex items-center justify-center gap-1.5 md:gap-2 py-3.5 md:py-4 bg-gradient-to-br from-[#FEE500] to-[#F5D400] text-[#191919] rounded-xl md:rounded-2xl text-[12px] md:text-[15px] font-bold whitespace-nowrap shadow-[0_8px_24px_rgba(254,229,0,0.35)] hover:brightness-[1.03] active:scale-[0.98] transition-all overflow-hidden"
+            href="sms:01029181929"
+            className="relative flex-1 flex items-center justify-center gap-1.5 md:gap-2 py-3.5 md:py-4 bg-gradient-to-br from-[#16A34A] to-[#15803D] text-white rounded-xl md:rounded-2xl text-[12px] md:text-[15px] font-bold whitespace-nowrap shadow-[0_8px_24px_rgba(22,163,74,0.35)] hover:brightness-[1.05] active:scale-[0.98] transition-all overflow-hidden"
           >
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="#191919" className="shrink-0 md:w-[18px] md:h-[18px]">
-              <path d="M12 3C6.48 3 2 6.48 2 10.8c0 2.76 1.86 5.18 4.66 6.56-.15.52-.97 3.36-1 3.58 0 0-.02.17.09.24.11.07.24.02.24.02.32-.04 3.68-2.4 4.26-2.81.57.08 1.15.12 1.75.12 5.52 0 10-3.48 10-7.71C22 6.48 17.52 3 12 3z"/>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" className="shrink-0 md:w-[18px] md:h-[18px]">
+              <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M8 10h.01M12 10h.01M16 10h.01" stroke="#fff" strokeWidth="2.5" strokeLinecap="round"/>
             </svg>
-            카톡 상담
+            문자 문의
           </a>
           <a
             href="tel:01029181929"

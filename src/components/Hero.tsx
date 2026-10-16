@@ -352,12 +352,12 @@ export default function Hero() {
               ))}
             </div>
 
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center lg:justify-start gap-3 animate-fade-up-delay-3">
+            <div className="flex flex-col sm:flex-row sm:flex-wrap lg:grid lg:grid-cols-2 items-stretch sm:items-center justify-center lg:justify-start gap-3 animate-fade-up-delay-3">
               <a
                 href="https://t.me/dampay1"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="relative overflow-hidden inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-br from-[#37AEE2] to-[#1E96C8] text-white rounded-full text-[15px] md:text-[16px] font-bold shadow-[0_12px_32px_rgba(34,158,217,0.4)] hover:-translate-y-0.5 active:translate-y-0 transition-all"
+                className="relative overflow-hidden inline-flex items-center justify-center gap-2 px-8 lg:px-4 py-4 whitespace-nowrap bg-gradient-to-br from-[#37AEE2] to-[#1E96C8] text-white rounded-full text-[15px] md:text-[16px] font-bold shadow-[0_12px_32px_rgba(34,158,217,0.4)] hover:-translate-y-0.5 active:translate-y-0 transition-all"
               >
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="#fff">
                   <path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/>
@@ -365,19 +365,18 @@ export default function Hero() {
                 텔레그램 1분 상담
               </a>
               <a
-                href="https://open.kakao.com/o/sIpkxXRi"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="relative overflow-hidden inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-br from-[#FEE500] to-[#F5D400] text-[#191919] rounded-full text-[15px] md:text-[16px] font-bold shadow-[0_12px_32px_rgba(254,229,0,0.4)] hover:-translate-y-0.5 active:translate-y-0 transition-all"
+                href="sms:01029181929"
+                className="relative overflow-hidden inline-flex items-center justify-center gap-2 px-8 lg:px-4 py-4 whitespace-nowrap bg-gradient-to-br from-[#16A34A] to-[#15803D] text-white rounded-full text-[15px] md:text-[16px] font-bold shadow-[0_12px_32px_rgba(22,163,74,0.4)] hover:-translate-y-0.5 active:translate-y-0 transition-all"
               >
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="#191919">
-                  <path d="M12 3C6.48 3 2 6.48 2 10.8c0 2.76 1.86 5.18 4.66 6.56-.15.52-.97 3.36-1 3.58 0 0-.02.17.09.24.11.07.24.02.24.02.32-.04 3.68-2.4 4.26-2.81.57.08 1.15.12 1.75.12 5.52 0 10-3.48 10-7.71C22 6.48 17.52 3 12 3z"/>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M8 10h.01M12 10h.01M16 10h.01" stroke="#fff" strokeWidth="2.5" strokeLinecap="round"/>
                 </svg>
-                카카오톡 상담
+                문자 문의하기
               </a>
               <a
                 href="tel:01029181929"
-                className="relative overflow-hidden inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-[15px] md:text-[16px] font-bold text-white animate-glow-pulse bg-gradient-to-r from-[#B45309] via-[#EA580C] to-[#F59E0B] hover:-translate-y-0.5 active:translate-y-0 transition-all"
+                className="relative overflow-hidden inline-flex items-center justify-center gap-2 px-8 lg:px-4 py-4 whitespace-nowrap lg:col-span-2 rounded-full text-[15px] md:text-[16px] font-bold text-white animate-glow-pulse bg-gradient-to-r from-[#B45309] via-[#EA580C] to-[#F59E0B] hover:-translate-y-0.5 active:translate-y-0 transition-all"
               >
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                   <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.81.36 1.6.68 2.34a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.74.32 1.53.55 2.34.68A2 2 0 0122 16.92z" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>

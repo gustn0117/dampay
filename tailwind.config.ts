@@ -22,7 +22,6 @@ const config: Config = {
         gold: '#F59E0B',
         'gold-light': '#FCD34D',
         silver: '#D9CFC0',
-        kakao: '#FEE500',
         dark: '#26190F',
       },
       fontFamily: {

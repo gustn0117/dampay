@@ -56,7 +56,7 @@ src/
 ```
 
 ## ✏️ 커스터마이징
-- **카카오톡 링크**: `StickyCTA.tsx` 및 `Hero.tsx`에서 `onClick` 핸들러 수정
+- **문자 문의 번호**: `Hero.tsx` · `StickyCTA.tsx` · `PhishingWarning.tsx` · `Footer.tsx`의 `sms:` 링크 수정
 - **전화번호**: `StickyCTA.tsx`에서 `tel:` 링크 추가
 - **색상**: `tailwind.config.ts`의 `colors` 수정
 - **후기/FAQ**: 각 컴포넌트 파일의 데이터 배열 수정

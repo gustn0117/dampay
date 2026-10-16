@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from 'react'
 const steps = [
   {
     num: '01',
-    top: '텔레그램 · 카톡 · 전화로',
+    top: '텔레그램 · 문자 · 전화로',
     highlight: '365일 24시간 가능',
     bottom: '문의 상담하기',
     colorA: '#1E3A8A',

@@ -98,7 +98,7 @@ export default function PhishingWarning() {
               <span className="text-gold-gradient">담페이는 오직 공식 채널에서!</span>
             </h3>
             <p className="text-[13px] md:text-[16px] text-[#D9CFC0] mb-6 md:mb-7 break-keep">
-              공식 채널은 텔레그램 <b className="text-white">@dampay1</b>과 <b className="text-white">카카오톡 오픈채팅</b> 뿐이며, 그 외 <b className="text-white">모든 계정은 사칭이므로 주의</b>하세요!
+              공식 채널은 텔레그램 <b className="text-white">@dampay1</b>과 대표번호 <b className="text-white whitespace-nowrap">010-2918-1929</b> 뿐이며, 그 외 <b className="text-white">모든 계정은 사칭이므로 주의</b>하세요!
             </p>
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3">
               <a
@@ -113,15 +113,14 @@ export default function PhishingWarning() {
                 텔레그램 바로 상담
               </a>
               <a
-                href="https://open.kakao.com/o/sIpkxXRi"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 px-7 md:px-10 py-4 md:py-5 bg-gradient-to-br from-[#FEE500] to-[#F5D400] text-[#191919] rounded-full text-[14px] md:text-[16px] font-black shadow-[0_12px_32px_rgba(254,229,0,0.35)] hover:-translate-y-0.5 transition-all"
+                href="sms:01029181929"
+                className="inline-flex items-center justify-center gap-2 px-7 md:px-10 py-4 md:py-5 bg-gradient-to-br from-[#16A34A] to-[#15803D] text-white rounded-full text-[14px] md:text-[16px] font-black shadow-[0_12px_32px_rgba(22,163,74,0.4)] hover:-translate-y-0.5 transition-all"
               >
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="#191919">
-                  <path d="M12 3C6.48 3 2 6.48 2 10.8c0 2.76 1.86 5.18 4.66 6.56-.15.52-.97 3.36-1 3.58 0 0-.02.17.09.24.11.07.24.02.24.02.32-.04 3.68-2.4 4.26-2.81.57.08 1.15.12 1.75.12 5.52 0 10-3.48 10-7.71C22 6.48 17.52 3 12 3z"/>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M8 10h.01M12 10h.01M16 10h.01" stroke="#fff" strokeWidth="2.5" strokeLinecap="round"/>
                 </svg>
-                카카오톡 바로 상담
+                문자 문의하기
               </a>
             </div>
           </div>
